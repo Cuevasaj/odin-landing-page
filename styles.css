@@ -1,7 +1,45 @@
 .hero {
   background-color: #1f2937;
+  padding: 0 20vh 0 20vh;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vh;
+  padding-top: 10px;
+}
+
+.logo {
+  display: flex;
+  color: black;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section {
+  display: flex;
+  color: white;
+  padding-bottom: 10vh;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+.h-text {
+  font-size: 48px;
+}
 /* CSS Reset below  */
 html,
 body,
