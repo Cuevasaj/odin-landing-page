@@ -222,14 +222,27 @@ button {
   justify-content: space-around;
 }
 
-.quotes-section {
+/* Quote  */
+.quote-section {
   display: flex;
-  background-color: lightgrey;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
   height: 300px;
+  padding: 20px 140px 20px 140px;
 }
 
-.reit-qoute {
+.reit-quote {
   display: flex;
-  align-items: center;
-  margin: 20px 140px 20px 140px;
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
+
+.quote-r {
+  display: flex;
+  align-self: flex-end;
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 18px;
 }
