@@ -249,3 +249,38 @@ button {
   font-weight: bolder;
   font-size: 18px;
 }
+/*  Call To Action Section */
+.cta-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: red solid; /*for refrance  */
+  height: 300px;
+}
+
+.call-box {
+  /* margin: 20px 140px 80px 140px; */
+  width: 1500px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border: blue dotted;
+}
+
+.cta-box-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-header {
+  display: flex;
+}
+
+.cta-text {
+}
+
+.cta-btn {
+  display: flex;
+}
