@@ -144,7 +144,9 @@ table {
 
 .nav-links {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 a {
