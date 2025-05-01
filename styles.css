@@ -155,7 +155,7 @@ a {
 .hero-section {
   display: flex;
   flex-direction: row;
-  color: white;
+
   padding-bottom: 10vh;
 }
 
@@ -172,11 +172,17 @@ a {
 .h-text {
   flex-direction: column;
   font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900px;
   margin-bottom: 10px;
 }
 
 button {
   max-width: 100px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  border: #e5e7eb;
+  color: #e5e7eb;
 }
 
 .here-img {
